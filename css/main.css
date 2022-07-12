@@ -298,6 +298,7 @@ grid-template-areas:
 'a b c d e' ;
 padding-inline: 38px;
 overflow-x: hidden;
+overflow-y: hidden;
 }
 
 .logo2{
@@ -646,8 +647,8 @@ footer {
 display: flex;
 flex-direction: column;
 background-color: #F5F6F8;
-
 text-align: center;
+
 }
 ul{
 margin-top: 0;
