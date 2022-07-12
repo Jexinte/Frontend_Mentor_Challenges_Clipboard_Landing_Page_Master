@@ -37,7 +37,7 @@ text-decoration: none;
 body {
 font-family: var(--BaiJamjuree);
 font-size: var(--18px);
-
+overflow-x:hidden;
 }
 
 
@@ -410,6 +410,10 @@ margin-top: 74px;
 
 /* MOBILE VERSION  */
 @media screen and (max-width:992px) {
+  
+  body{
+    overflow-x:hidden;
+  }
 .container {
 padding-inline: 38px;
 background-image: url('../images/bg-header-mobile.png');
