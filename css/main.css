@@ -297,7 +297,7 @@ background-color: #F5F6F8;
 grid-template-areas:
 'a b c d e' ;
 padding-inline: 38px;
-
+overflow-x: hidden;
 }
 
 .logo2{
@@ -410,6 +410,8 @@ margin-top: 74px;
 
 /* MOBILE VERSION  */
 @media screen and (max-width:992px) {
+
+        
 .container {
 padding-inline: 38px;
 background-image: url('../images/bg-header-mobile.png');
@@ -697,7 +699,7 @@ color:var(--strongCyan);
 margin-bottom: 49px;
 margin-top: 0;
 position: relative;
-
+left:.8em;
 }
 
 .fa-brands {
